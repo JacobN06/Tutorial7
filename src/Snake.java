@@ -27,7 +27,7 @@ public class Snake extends Animal {
     public void displayInformation() {
         System.out.println("Snake Name: " + getName());
         System.out.println("Snake Age: " + getAge());
-        System.out.println("Snake Weight: " + getLength());
+        System.out.println("Snake Length in M: " + getLength());
         System.out.println("Snake Venimous?: " + isVenimous());
         System.out.println("Snakes are elongated limbless reptiles of the suborder Serpentes." +
                 " Cladistically squamates, snakes are ectothermic, amniote vertebrates covered in overlapping scales much like other members of the group." +

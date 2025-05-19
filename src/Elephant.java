@@ -22,7 +22,7 @@ public class Elephant extends Animal {
     public void displayInformation() {
         System.out.println("Elephant Name: " + getName());
         System.out.println("Elephant Age: " + getAge());
-        System.out.println("Elephant Weight: " + weight);
+        System.out.println("Elephant Weight in tons: " + weight);
         System.out.println("Elephants are the largest living land animals." +
                 " Three living species are currently recognised:" +
                 " the African bush elephant (Loxodonta africana)," +
